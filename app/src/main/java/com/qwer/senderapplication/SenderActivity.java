@@ -16,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 public class SenderActivity extends AppCompatActivity implements Switch.OnCheckedChangeListener {
 
     private Switch mSwSender;
-    public static final String PREFERENCE_NAME = "receiver_settings";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
