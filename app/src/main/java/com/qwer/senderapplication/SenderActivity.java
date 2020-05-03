@@ -35,6 +35,5 @@ public class SenderActivity extends AppCompatActivity implements Switch.OnChecke
         intent.setPackage("com.qwer.receiverapplication");
         intent.putExtra("key_switch_status", isChecked ? 1 : 0);
         sendBroadcast(intent);
-
     }
 }
